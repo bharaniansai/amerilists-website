@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | AmeriLists - Verified U.S. Business Email Lists</title>
+    <meta
+      name="description"
+      content="Get in touch with AmeriLists. We are here to help with any inquiries related to verified business email lists for U.S. markets."
+    />
+    <link rel="icon" href="data:image/x-icon;base64," />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900&display=swap"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+
+  <body
+    class="bg-slate-50 font-sans"
+    style='font-family: Inter, "Noto Sans", sans-serif;'
+  >
+    <header class="flex items-center justify-between border-b px-6 py-4 bg-white">
+      <div class="flex items-center gap-3 text-[#0d151c]">
+        <h1 class="text-lg font-bold">AmeriLists</h1>
+      </div>
+      <nav class="hidden md:flex gap-6">
+        <a class="text-sm font-medium text-[#0d151c]" href="index.html">Home</a>
+        <a class="text-sm font-medium text-[#0d151c]" href="about.html">About</a>
+        <a class="text-sm font-medium text-[#0d151c]" href="industries.html">Industries</a>
+        <a class="text-sm font-medium text-[#0d151c]" href="sample.html">Sample</a>
+        <a class="text-sm font-medium text-[#0d151c]" href="pricing.html">Pricing</a>
+      </nav>  
+      <div class="flex gap-3">
+        <button class="h-10 px-4 rounded-full bg-[#0b80ee] text-white text-sm font-bold">
+          Get Started
+        </button>
+        <button class="h-10 px-4 rounded-full bg-[#e7edf4] text-[#0d151c] text-sm font-bold">
+          Log In
+        </button>
+      </div>
+    </header>
+
+    <main class="max-w-lg mx-auto py-10 px-4">
+      <h2 class="text-3xl font-bold text-[#0d151c] mb-2">Contact Us</h2>
+      <p class="text-[#49749c] mb-6">
+        We're here to help. Reach out to us with any questions or inquiries.
+      </p>
+
+      <form
+        action="https://formspree.io/f/mvgqkoay"
+        method="POST"
+        class="flex flex-col gap-4"
+      >
+        <input
+          type="text"
+          name="name"
+          required
+          placeholder="Your Name"
+          class="w-full rounded-xl bg-[#e7edf4] h-14 p-4 text-base text-[#0d151c] placeholder-[#49749c] focus:outline-0"
+        />
+
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Your Email"
+          class="w-full rounded-xl bg-[#e7edf4] h-14 p-4 text-base text-[#0d151c] placeholder-[#49749c] focus:outline-0"
+        />
+
+        <input
+          type="text"
+          name="subject"
+          required
+          placeholder="Subject"
+          class="w-full rounded-xl bg-[#e7edf4] h-14 p-4 text-base text-[#0d151c] placeholder-[#49749c] focus:outline-0"
+        />
+
+        <textarea
+          name="message"
+          required
+          placeholder="Your Message"
+          class="w-full rounded-xl bg-[#e7edf4] min-h-36 p-4 text-base text-[#0d151c] placeholder-[#49749c] focus:outline-0"
+        ></textarea>
+
+        <button
+          type="submit"
+          class="h-10 px-6 rounded-full bg-[#0b80ee] text-white text-sm font-bold"
+        >
+          Send Message
+        </button>
+      </form>
+    </main>
+
+    <footer class="flex justify-center py-8 border-t mt-10">
+      <p class="text-[#5c748a] text-sm">&copy; 2025 AmeriLists. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
